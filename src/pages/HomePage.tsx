@@ -5,7 +5,8 @@ import { PetCard } from '@/components/PetCard';
 import { Heart, Shield, Users, ArrowRight, Star, CheckCircle } from 'lucide-react';
 import { getPets, getAuthState, initializeDefaultData } from '@/utils/storage';
 import type { Pet } from '@/utils/storage';
-import heroImage from '@/assets/hero-pets.jpg';
+// Using external image for hero section
+const heroImage = 'https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=1200&h=800&fit=crop';
 
 interface HomePageProps {
   onNavigate: (path: string) => void;
